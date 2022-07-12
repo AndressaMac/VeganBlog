@@ -1,0 +1,48 @@
+
+@media (min-width: 600px) {  
+.cabecalho {
+  
+  background-color: rgba(202, 227, 129, 1);
+  height: 10rem;
+  
+}
+.cabecalho_imagem {
+  width: 10rem;
+  position:fixed;
+  right: 40%;
+ 
+}
+
+.esconder {
+  
+  text-decoration: none;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  line-height: 100px;
+  color: rgba(41, 67, 32, 1) ;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  
+}
+
+.active {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(202, 227, 129, 1);
+  position: relative;
+  top: 40px;
+  
+  
+}
+
+.item {
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding-top: 15px;
+}}
